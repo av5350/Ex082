@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     String[][] countriesArr = { {"Nigeria", "Ethiopia", "Egypt", "Tanzania", "Kenya", "Uganda", "Algeria"},
                                 {"China", "India", "Mongolia", "Pakistan", "Myanmar", "Yemen", "Iraq"},
                                 {"Romania", "Ukraine", "Sweden", "Norway", "Germany", "Finland", "Poland"},
-                                {"Argentina", "Brazil", "Bolivia", "Chile", "Colombia", "Peru", "Suriname"}};
+                                {"Venezuela", "Brazil", "Bolivia", "Chile", "Colombia", "Peru", "Suriname"}};
 
     String[][] countriesInfo = {{"Abuja", "206,630,269", "English", "Arise, O Compatriots"},
                                 {"Addis Ababa", "109,224,414", "English", "March Forward, Dear Mother Ethiopia"},
@@ -43,7 +43,14 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                                 {"Oslo", "5,432,580", "Norwegian, Sámi", "Yes, we love this country"},
                                 {"Berlin", "83,166,711", "German", "Song of Germany"},
                                 {"Helsinki", "5,528,737", "Finnish, Swedish, Sámi", "Our Land"},
-                                {"Warsaw", "38,383,000", "Polish", "Poland Is Not Yet Lost"}};
+                                {"Warsaw", "38,383,000", "Polish", "Poland Is Not Yet Lost"},
+                                {"Caracas", "28,887,118", "Spanish", "Glory to the Brave People"},
+                                {"Brasília", "210,147,125", "Portuguese", "Brazilian National Anthem"},
+                                {"Sucre, La Paz", "11,428,245", "Spanish, Aymara, Quechua", "Himno Nacional de Bolivia"},
+                                {"Santiago", "17,574,003", "Spanish", "Himno Nacional de Chile"},
+                                {"Bogotá", "50,372,424", "Spanish, English", "National Anthem of the Republic of Colombia"},
+                                {"Lima", "32,824,358", "Spanish", "National Anthem of Peru"},
+                                {"Paramaribo", "575,990", "Dutch", "God be with our Suriname"}};
 
     int countriesPos;
 
